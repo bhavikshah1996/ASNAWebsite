@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>ASNA Group: Home Page</title>
+      <!-- Bootstrap -->
+	  <link rel="icon" href="images/logo.png">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive-style.css" rel="stylesheet">
+      <link href="css/effect_style.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link href="css/responsive_bootstrap_carousel.css" rel="stylesheet" media="all">
+      <link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="css/set1.css" />
+	  
+	  
+	   <script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script>
+
+<script language="JavaScript">
+  
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+
+
+
+
+
+
+   </head>
+   <body>
+      <!--=========header start============-->
+      <header class="header1">
+         <div class="container">
+            <div class="row ">
+               <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 display-block ">
+                  <a href="index.html" class="logo"><img src="images/logo.png" class="img-responsive" alt="logo" style="
+    width: 42%;
+    height: auto;
+"></a>
+               </div>
+               <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 pull-right">
+                  <ul class="header-info">
+                     <li class="address">Alankapuri,Nirmalnagar,<br>Savedi, Ahmednagar <br>Maharashtra, India – 414003</li>
+                     <li class="phn">+91 7588359055 /<br> +91 9423791555 <br/><a href="mailto:autiagro55@gmail.com">autiagro55@gmail.com</a></li>
+                  </ul>
+                  <div class="mob-social display-none">
+                     <div class="header-socials "> 
+                        <a href="#" ><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                        <a href="#" ><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                        <a href="#" ><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
+                        <a href="#" ><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                     </div>
+                   
+                  </div>
+                 
+               </div>
+            </div>
+         </div>
+         <nav id="main-navigation-wrapper" class="navbar navbar-default ">
+            <div class="container">
+               <div class="navbar-header">
+                  <div class="logo-menu"><a href="index.html"><img src="images/white-logo.png" alt="logo" style="
+    width: 42%;
+    height: auto;
+"></a></div>
+                  <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+               </div>
+         <div id="main-navigation" class="collapse navbar-collapse ">
+                  <ul class="nav navbar-nav">
+                     <li>
+                        <a href="index.html" class="active">Home</a>
+                       
+                     </li>
+					  <li>
+                        <a href="about.html" class="active">About Us</a>
+                       
+                     </li>
+					 
+					  <li>
+					  
+                        <a href="product.html" class="active">Product</a>
+                       
+                     </li>
+					 
+					   <li>
+                        <a href="what-we-do.html" class="active">What We Do</a>
+                       
+                     </li>
+					 
+					  <li>
+                        <a href="gallery.html" class="active">Gallery</a>
+                       
+                     </li>
+					  <li>
+                        <a href="contact.html" class="active">Contact</a>
+                       
+                     </li>
+                   
+                       </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!--=========header end============-->
+      <!--=========home banner start============-->
+      <div id="minimal-bootstrap-carousel" class="home1 hmslider1 carousel slide carousel-fade shop-slider full_width" data-ride="carousel">
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner" role="listbox">
+            <div class="item active slide-1">
+               <div class="carousel-caption">
+                  <div class="thm-container ">
+                     <div class="box valign-top">
+                        <div class="content home1-slides">
+                               </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item slide-2">
+               <div class="carousel-caption">
+                  <div class="thm-container">
+                     <div class="box valign-top">
+                        <div class="content home1-slides">
+                               </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item slide-3">
+               <div class="carousel-caption">
+                  <div class="thm-container">
+                     <div class="box valign-top">
+                        <div class="content home1-slides">
+                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Controls --> 
+         <a class="left carousel-control" href="#minimal-bootstrap-carousel" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#minimal-bootstrap-carousel" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a> 
+      </div>
+      <!--=========home banner end============-->
+      <!--=========Services Start============-->
+      <section class="pad100-70-top-bottom">
+         <div class="container">
+            <div class="row ">
+               <div class="head-section wdt-100">
+                  <div class="col-lg-5 col-md-6 col-sm-4 col-xs-12">
+                     <h3>Welcome to Auti And Sons Natural Agro  </h3>
+                  </div>
+                  <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12">
+                     <p class="fnt-18" align="justify">
+					 
+					Auti And Sons Natural Agro is a trusted value driven & professionally managed farmer producer company. Major export,wholesalers and suppliers of Fresh fruits, vegetables,Grain, Rice, Process Food to Europe, middle east, CIS and Asia grown by our 500 committed farmer members.
+
+					 </p>
+                  </div>
+               </div>
+			   
+			   <h2 align="center">Our Products</h2>
+               <div class="col-md-12">
+                  <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                     <a href="index.html">
+                       <img src="50.jpg" style="
+    width: 250px;
+    height: auto;
+">
+                        <h5>Fresh Fruits</h5>
+                        <span class="read-more-link">Read More</span>
+                     </a>
+                  </div>
+				  
+				  
+				   <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                     <a href="index.html">
+                         <img src="51.jpg" style="
+    width: 250px;
+    height: auto;
+">
+                        <h5>Fresh Vegetable</h5>
+                        <span class="read-more-link">Read More</span>
+                     </a>
+                  </div>
+				  
+				  
+				   <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                     <a href="index.html">
+                          <img src="52.jpg" style="
+    width: 250px;
+    height: auto;
+">
+                        <h5>Fresh Grain</h5>
+                         <span class="read-more-link">Read More</span>
+                     </a>
+                  </div>
+				  
+				  
+				  
+				  
+				   <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                     <a href="index.html">
+                         <img src="53.jpg" style="
+    width: 250px;
+    height: auto;
+">
+                        <h5>Fresh Species </h5>
+                        <span class="read-more-link">Read More</span>
+                     </a>
+                  </div>
+				  
+				   <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                     <a href="index.html">
+                          <img src="54.jpg" style="
+    width: 250px;
+    height: auto;
+">
+                        <h5>Fresh Rice</h5>
+                         <span class="read-more-link">Read More</span>
+                     </a>
+                  </div>
+				  
+				   <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                     <a href="index.html">
+                         <img src="55.jpg" style="
+    width: 250px;
+    height: 190px;
+">
+                        <h5>Process Food</h5>
+                         <span class="read-more-link">Read More</span>
+                     </a>
+                  </div>
+				  
+				
+                 
+                         </div>
+         </div>
+      </section>
+      <!--=========Services end============-->
+      <!--=========Wordpress Bestthing Start============-->
+      <section class="bestthing-section">
+         <div class="container">
+            <div class="row ">
+               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bestthing-text-column">
+                  <h2> We are the fastest India's farmers 
+                     <span>producers company</span>
+                  </h2>
+                  <p class="fnt-17">
+				"100% food safe farm produces coming directly from us farmer ”</p>
+               </div>
+            </div>
+         </div>
+         <div class="bestthing-img">
+            <img src="images/12.png" class="img-responsive" alt="wordpress-image">
+         </div>
+      </section>
+      <!--=========Wordpress Bestthing end============-->
+      <!--=========Recent Project Start============-->
+      <section class="recent-project-section projectsec1">
+         <div class="container">
+            <h3 class="black-color">Our Projects</h3>
+			
+			<h6>
+			
+			We make consumer happier by providing the highest quality, fresh produce 
+			</h6><br>
+         </div>
+        
+         <!-- Tab panes -->
+         <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="all">
+               <div class="full_wrapper carousel slide four_shows_one_move home1-project" id="our_project" data-ride="carousel">
+                  <div class="controls"> <a class="left fa fa-angle-left next_prve_control" href="#our_project" data-slide="prev"></a><a class="right fa fa-angle-right next_prve_control" href="#our_project" data-slide="next"></a> </div>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                     <div class="item active">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img pad_zero ">
+						    <div class="image-zoom-on-hover">
+								<div class="gal-item">
+									<a class="black-hover" href="#">
+									   <img class="img-full img-responsive" src="1.jpg" alt="Project1" style="
+    height: auto;
+">
+									   <div class="tour-layer delay-1"></div>
+									   <div class="vertical-align">
+											 <div class="border">
+												
+											 </div>
+											
+									   </div>
+									</a>
+							    </div>
+						    </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img pad_zero">
+                           <div class="grid">
+                              <div class="image-zoom-on-hover">
+								  <div class="gal-item">
+										<a class="black-hover" href="#">
+										   <img class="img-full img-responsive" src="2.jpg" alt="Project1" style="height:auto">
+										   <div class="tour-layer delay-1"></div>
+										   <div class="vertical-align">
+												 
+										   </div>
+										</a>
+									</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+					 
+					       <div class="item">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img pad_zero">
+                           <div class="grid">
+                              <div class="image-zoom-on-hover">
+								  <div class="gal-item">
+										<a class="black-hover" href="#">
+										   <img class="img-full img-responsive" src="3.jpg" alt="Project1" style="height:auto">
+										   <div class="tour-layer delay-1"></div>
+										   <div class="vertical-align">
+												 
+										   </div>
+										</a>
+									</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+					 
+                        
+				         <div class="item">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img pad_zero">
+                           <div class="grid">
+                              <div class="image-zoom-on-hover">
+								  <div class="gal-item">
+										<a class="black-hover" href="#">
+										   <img class="img-full img-responsive" src="4.jpg" alt="Project1" style="height:auto">
+										   <div class="tour-layer delay-1"></div>
+										   <div class="vertical-align">
+												 
+										   </div>
+										</a>
+									</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                   
+				    <div class="item">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img pad_zero">
+                           <div class="grid">
+                              <div class="image-zoom-on-hover">
+								  <div class="gal-item">
+										<a class="black-hover" href="#">
+										   <img class="img-full img-responsive" src="5.jpg" alt="Project1" style="height:auto">
+										   <div class="tour-layer delay-1"></div>
+										   <div class="vertical-align">
+												 
+										   </div>
+										</a>
+									</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+					 
+                     <div class="item">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img pad_zero">
+                           <div class="grid">
+								<div class="image-zoom-on-hover">
+									<div class="gal-item">
+										<a class="black-hover" href="#">
+										   <img class="img-full img-responsive" src="6.jpg" alt="Project1" style="height:auto">
+										   <div class="tour-layer delay-1"></div>
+										   <div class="vertical-align">
+												
+										   </div>
+										</a>
+									</div>
+								</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+      <!--=========High Quality Start============-->
+      <section class="hight-level-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h2>We <span>WE GROW FOOD WITHCARE SO EAT SAFE , </span> 	STAY HEALTHY AND CHOOSE WISELY</h2>
+               </div>
+               <div class="col-lg-12 col-md-6 col-xs-12 col-xs-12">
+                  <p align="justify" class="fnt-17">
+				 Auti And Sons Natural Agro offers a fair-priced fixed contract rate to the farmers. Because of ongoing value addition to the farmers, there is no default by the farmers in supply. Farmers also have the assurance of a full buy-back from Auti And Sons Natural Agro and do not have to worry about marketing their produce. 
+
+<b>AUTI AND SONS NATURAL AGRO is a most trusted brand amongst farmers in Maharashtra,INDIA </b>
+
+Regular training programs are organised for farmers periodically. These programs are oriented towards enhancing knowledge about field cultivation practices, diseases and pest management, harvesting techniques and hygiene procedures.
+
+ </p>
+               </div>
+              
+            </div>
+         </div>
+      </section>
+     
+      <section class="testimonial-section">
+         <div class="testimonial-rght-head">
+            <h2>Testimonial</h2>
+         </div>
+         <div class="container">
+            <div class="col-lg-6 col-md-6 testimonial-left-sidebar">
+               <div id="minimal-bootstrap-carousel1" class="home1 carousel slide carousel-horizontal shop-slider full_width testimonial-slider" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                     <div class="item active slide-1" >
+                        <div class="testimonial-head">
+                           <span class="testi-img"><img src="images/testi-client-img1.png" class="img-responsive img-circle" alt="testimonial-image"></span>
+                           <div class="testi-text">
+                              <h5>Mr. Avinash Kambale</h5>
+                              <span class="testi-designation">Director Of
+Pan Exim Enterprises,Mumbai
+</span>
+                           </div>
+                        </div>
+                        <p>ASNA group are maintaining quality of the products as per International standards with reasonable rate. As our association from last two years we are happy with service and quality of product.
+                        </p>
+                     </div>
+                     <div class="item slide-2" >
+                        <div class="testimonial-head">
+                           <span class="testi-img"><img src="images/testi-client-img2.jpg" class="img-responsive img-circle" alt="testimonial-image"></span>
+                           <div class="testi-text">
+                              <h5>	Mr. Datta Thated </h5>
+                              <span class="testi-designation">Director,
+Soubadra Exim, Mumbai
+</span>
+                           </div>
+                        </div>
+                        <p>ASNA group are our regular supplier for agriculture product.Last year we are dealing with Auti & Son’s Natural Agro. We are happy and satisfaction with this Group.
+                        </p>
+                     </div>
+                     <div class="item slide-3" >
+                        <div class="testimonial-head">
+                           <span class="testi-img"><img src="images/testi-client-img3.jpg" class="img-responsive img-circle" alt="testimonial-image"></span>
+                           <div class="testi-text">
+                              <h5>Mr.Danny Wong</h5>
+                              <span class="testi-designation">Director
+Mascorn, Malaysia
+</span>
+                           </div>
+                        </div>
+                        <p>Auti And Sons Natural Agro Group are very commitment group. They supply regular agro product.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Controls --> 
+                  <a class="left carousel-control" href="#minimal-bootstrap-carousel1" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#minimal-bootstrap-carousel1" role="button" data-slide="next"> <i class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a> 
+               </div>
+            </div>
+         </div>
+      </section>
+    
+      <footer>
+         <div class="yellow-background solution-available text-center">
+            <div class="container">
+               <h5>For Any Service We Are <span>Available</span> </h5>
+               <a data-animation="animated fadeInUp" class="header-requestbtn contactus-btn hvr-bounce-to-right" href="contact.html">Contact us</a>
+            </div>
+         </div>
+         <div class="ftr-section">
+            <div class="container">
+               <ul class="footer-info">
+                  <li class="ftr-loc">Alankapuri,Nirmalnagar,Savedi,<br>Ahmednagar,Maharashtra,India – </li>
+                  <li class="ftr-phn">+91 7588359055 </li>
+                  <li class="ftr-msg">autiagro55@gmail.com
+				  </li>
+                  <li class="ftr-support">9 To 6 Hours</li>
+               </ul>
+               <div class="row">
+                  <div class="col-md-4 col-sm-6 col-xs-12  ftr-about-text">
+                     <h6>About ASNA</h6>
+                     <p class="marbtm20 line-height26">
+					WE ARE INDIAS LARGEST POMEGRENET, MANGO AND ONION EXPORTER TO EUROPE,MIDDLE EAST,CIS & ASIA GROWN BY OUR 1000 COMMITTED FARMER MEMBERS.
+					 </p>
+                     <a class="ftr-read-more" href="about.htm">Read More</a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 ftr-sol-column">
+                     <h6>Our Products</h6>
+                     <ul class="footer-link">
+                        <li><a href="index.html">Fresh Fruits</a></li>
+                        <li><a href="index.html">Fresh Mango</a></li>
+                        <li><a href="index.html">Fresh Grapes</a></li>
+                        <li><a href="index.html">Fresh Orange</a></li>
+                        <li><a href="index.html">Fresh Onion</a></li>
+                       
+                     </ul>
+                  </div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 ftr-link-column">
+                     <h6>Quick Links</h6>
+                     <ul class="footer-link">
+                        <li><a href=".html">- About Us</a></li>
+                        <li><a href=".html">- News</a></li>
+                        <li><a href=".html">- Testimonials</a></li>
+                        <li><a href=".html">- Contact Us</a></li>
+                        <li><a href=".html">- FAQ</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 ftr-follow-column pull-right">
+                     <h6>Follow Us</h6>
+                     <div class="header-socials footer-socials"> 
+                        	<a href="https://www.facebook.com/ASNA.55/"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                        <a href="https//twitter.com/AsnaGroup"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                        <a href="https://www.instgram.com/autiandsonsnaturalagro55/"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                        <a href="https://www.youtube.com/channel/UC2gTu_dyI5EBKKQMu26ScRg/featured?view_as=public"><i class="fa fa-youtube" aria-hidden="true"></i></a> 
+                     </div>
+                    </div>
+               </div>
+               <div class="footer-btm">
+                  <div class="col-md-6 col-sm-6 col-xs-12 pad-left_zero pad-right_zero">
+                     <p>Copyright © 2019 ASNA Group. All Rights Reserved.</p>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12 pad-left_zero pad-right_zero pull-right">
+                     <p class="text-right">Developed by<b> <a href="http://www.rbtechservices.in">RB Tech Services</a></b></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--=========Footer end============-->
+   
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+   <script src="js/jquery.min.js"></script> 
+   <!-- Include all compiled plugins (below), or include individual files as needed --> 
+   <script src="js/bootstrap.min.js"></script> 
+   <script src="js/jquery.touchSwipe.min.js"></script> 
+   <script src="js/responsive_bootstrap_carousel.js"></script> 
+   <script src="js/custom.js"></script>
+   <script src="js/theme.js"></script>
+    </body>
+
+</html>
